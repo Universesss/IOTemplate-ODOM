@@ -186,10 +186,10 @@ void usercontrol(void)
     
 
     if(Controller1.ButtonX.pressing()){
-      matchLoader.set(false);
+      matchLoader.set(true);
     }
     else{
-      matchLoader.set(true);
+      matchLoader.set(false);
     }
 
     // Replace this line with chassis.control_tank(); for tank drive
