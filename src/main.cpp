@@ -187,8 +187,7 @@ void usercontrol(void)
 
     if(Controller1.ButtonX.pressing()){
       matchLoader.set(true);
-    }
-    else{
+    }else{
       matchLoader.set(false);
     }
 
